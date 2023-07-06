@@ -1,0 +1,1 @@
+document.getElementById("myDiv").innerHTML="sachin";

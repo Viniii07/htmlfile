@@ -1,0 +1,13 @@
+<input placeholder="search" onkeyup="debouncing()"/>
+<script>
+    let timer;
+  function search(){
+    console.log("ajax")
+  }
+  function debouncing(){
+    clearTimeout(timer);
+    timer=setTimeout(()=>{
+        search();
+    },2000)
+  }
+</script>
